@@ -9,12 +9,12 @@ public class DashboardTest extends baseClass {
 
     @Test(priority = 1)
     public void testValidRegistration(){
-        String username = "ben";
-        String pass = "ben";
+        String username = "benjamun";
+        String pass = "benjamun";
         Dashboard dashboard = new Dashboard(driver);
         dashboard.registerUser("Aun","Ali",
                 "Gulshan","Karachi","Sindh","12345","09001234567",
-                "009988776655",username,pass,"ben");
+                "009988776655",username,pass,"benja");
 
         LoginPage loginpage = new LoginPage(driver);
         loginpage.re_Username(username);

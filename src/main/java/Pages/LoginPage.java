@@ -12,7 +12,7 @@ import java.time.Duration;
 public class LoginPage {
 
     public final WebDriver driver;
-//    private By logout_user = By.cssSelector("#leftPanel > ul > li:nth-child(8) > a");
+
     private By reEnterUsrname = By.cssSelector("#loginPanel > form > div:nth-child(2) > input");
     private By reEnterpass = By.cssSelector("#loginPanel > form > div:nth-child(4) > input");
     private By loginBtn = By.cssSelector("#loginPanel > form > div:nth-child(5) > input");

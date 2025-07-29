@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends baseClass{
 
     //@Test(dependsOnMethods = "Test.DashboardTest.testValidRegistration")
-    public void ResistrationSuccess(){
+    public void RegistrationSuccess(){
         LoginPage loginpage = new LoginPage(driver);
 //        loginpage.re_Username(username);
 //        loginpage.re_pass(pass);

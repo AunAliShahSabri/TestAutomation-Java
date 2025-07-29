@@ -36,8 +36,6 @@ public class Dashboard {
     }
 
     //Actions
-    //public void clickRegister(){driver.findElement(registerBtn).click();}
-
     public void enterFName(String firstname){
         driver.findElement(custFname).sendKeys(firstname);
     }
