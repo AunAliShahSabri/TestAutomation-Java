@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="RawUseOfParameterizedType" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="TestAutomation-Java" />
+          <option value="TestAutomation-Java" />
+          <option value="TestAutomation-Java" />
+          <option value="TestAutomation-Java" />
+          <option value="TestAutomation-Java" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.apache.commons:commons-lang3:3.5" />
+          <option value="org.yaml:snakeyaml:1.23" />
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="commons-io:commons-io:2.11.0" />
+          <option value="org.apache.poi:poi-ooxml:5.2.3" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="registration" />
+            <item index="1" class="java.lang.String" itemvalue="Accounts" />
+            <item index="2" class="java.lang.String" itemvalue="Activity" />
+            <item index="3" class="java.lang.String" itemvalue="Opening" />
+            <item index="4" class="java.lang.String" itemvalue="Funds" />
+            <item index="5" class="java.lang.String" itemvalue="Bill" />
+            <item index="6" class="java.lang.String" itemvalue="Find" />
+            <item index="7" class="java.lang.String" itemvalue="Update" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

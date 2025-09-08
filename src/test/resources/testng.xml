@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestAutomation-Java">
+
+    <!-- a <test> maps to one JVM thread unless you enable parallelism -->
+    <test name="Assertion Class">
+        <classes>
+            <!-- list the fully-qualified class names in the order you want -->
+            <class name="Test.DashboardTest"/>
+            <class name="Test.LoginPageTest"/>
+            <class name="Test.AccountsOverviewTest"/>
+            <class name="Test.AccountOpeningTest"/>
+            <class name="Test.FundsTransferTest"/>
+            <class name="Test.BillPayTest"/>
+            <class name="Test.FindTransactionsTest"/>
+            <class name="Test.UpdateContactInfoTest"/>
+            <class name="Test.RequestLoanTest"/>
+        </classes>
+    </test>
+<!--    <test name="Cucumber BDD">-->
+<!--        <classes>-->
+<!--            <class name="Runner.CucumberRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
