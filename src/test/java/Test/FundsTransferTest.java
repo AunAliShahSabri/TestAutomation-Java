@@ -1,3 +1,7 @@
+/*
+ * Subsequent Test class for FundsTransfer.
+ * It contains all the Test methods to be executed by FundsTransfer class
+ * */
 package Test;
 
 import Base.baseClass;

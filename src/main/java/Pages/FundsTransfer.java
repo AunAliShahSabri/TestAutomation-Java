@@ -1,9 +1,8 @@
 /*
- * This is the AccountsOverview class that is executed after the login class
- * This is the Accounts Overview page for Parabank
- * This class has functions that select Activity Period and Type in Account Activity section of Accounts Overview page.
- * It also has hoverOverTitle() method to hover over the title text.
- * */
+ * This is the AccountsOpening class that is executed after the AccountsOpening class
+ * This is the Funds Transfer page for Parabank
+ * This class has functions that enters the amount for transfer, also selects From and To Account of FundsTransfer page.
+ */
 package Pages;
 
 import org.openqa.selenium.By;

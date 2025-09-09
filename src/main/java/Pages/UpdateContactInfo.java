@@ -1,16 +1,13 @@
 /*
- * This is the AccountsOverview class that is executed after the login class
+ * This is the Update Contact Info class that is executed after the Find Transaction class.
  * This is the Accounts Overview page for Parabank
- * This class has functions that select Activity Period and Type in Account Activity section of Accounts Overview page.
- * It also has hoverOverTitle() method to hover over the title text.
- * */
+ * This class has functions that updates the User information.
+ */
 package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.time.Duration;
 
 public class UpdateContactInfo {
     public WebDriver driver;

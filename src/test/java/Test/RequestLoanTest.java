@@ -1,3 +1,7 @@
+/*
+ * Subsequent Test class for RequestLoan.
+ * It contains all the Test methods to be executed by RequestLoan class
+ * */
 package Test;
 
 import Base.baseClass;

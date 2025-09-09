@@ -1,9 +1,9 @@
 /*
- * This is the AccountsOverview class that is executed after the login class
+ * This is the Bill Payment Service class that is executed after the Funds Transfer class
  * This is the Accounts Overview page for Parabank
- * This class has functions that select Activity Period and Type in Account Activity section of Accounts Overview page.
- * It also has hoverOverTitle() method to hover over the title text.
- * */
+ * This class has functions that asks User to enter details like name, address, city, state, zip, phone number.
+ * Also asks user to enter account number and verify it before entering amount to pay bill.
+ */
 package Pages;
 
 import org.openqa.selenium.By;

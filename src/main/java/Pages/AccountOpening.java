@@ -1,8 +1,8 @@
 /*
- * This is the AccountsOverview class that is executed after the login class
- * This is the Accounts Overview page for Parabank
- * This class has functions that select Activity Period and Type in Account Activity section of Accounts Overview page.
- * It also has hoverOverTitle() method to hover over the title text.
+ * This is the AccountsOpening class that is executed after the AccountsOverview class
+ * This is the Accounts Opening page for Parabank
+ * This class has functions that select Type of Account and Existing Account of Accounts Opening page.
+ * It also has a function to select and verify the created account
  * */
 package Pages;
 

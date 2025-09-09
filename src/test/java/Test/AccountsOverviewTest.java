@@ -1,6 +1,6 @@
 /*
- * Subsequent Test class for stepdefinitions.AccountsOverview.
- * It contains all the Test methods to be executed by stepdefinitions.AccountsOverview class
+ * Subsequent Test class for AccountsOverview.
+ * It contains all the Test methods to be executed by AccountsOverview class
  * */
 package Test;
 

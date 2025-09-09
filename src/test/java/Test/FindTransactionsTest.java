@@ -1,3 +1,7 @@
+/*
+ * Subsequent Test class for FindTransaction.
+ * It contains all the Test methods to be executed by FindTransaction class
+ * */
 package Test;
 
 import Base.baseClass;

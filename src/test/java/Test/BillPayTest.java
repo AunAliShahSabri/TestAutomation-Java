@@ -1,3 +1,7 @@
+/*
+ * Subsequent Test class for BillPay.
+ * It contains all the Test methods to be executed by BillPay class
+ * */
 package Test;
 
 import Base.baseClass;
