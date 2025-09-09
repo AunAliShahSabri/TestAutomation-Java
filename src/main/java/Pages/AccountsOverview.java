@@ -63,20 +63,7 @@ public class AccountsOverview {
         //Clicking Open New Account under Account Services
         driver.findElement(By.cssSelector("#leftPanel > ul > li:nth-child(1) > a")).click();
     }
-
-    /*This function is created to get the element for the dropdown so that it can be reused.
-    Not to be called by @Test
-    private Select findDropDownElement(){
-        return new Select(driver.findElement(By.id("month")));
-    }
-    public void testDropDown(String option){
-        findDropDownElement().selectByVisibleText(option);
-
-    public List<String> getSelectedOptions(){ //Gets the whole list
-        List<WebElement> SelectedElements = findDropDownElement().getAllSelectedOptions();
-        return SelectedElements.stream().map(WebElement::getText).collect(Collectors.toList());
-    }*/
-
+    
     //Hovering over Parabank title
     public AccountOpening hoverOverTitle(){
         WebElement figure = driver.findElement(By.className("logo"));

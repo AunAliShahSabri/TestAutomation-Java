@@ -72,22 +72,4 @@ public class AccountOpening {
         driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[3]/a")).click();
 
     }
-
-//    public void saveTransactionInfo(){
-//        TransactionID = driver.findElement(By.xpath("//*[@id=\"rightPanel\"]/table/tbody/tr[1]/td[2]")).getText();
-//        Date = driver.findElement(By.cssSelector("#rightPanel > table > tbody > tr:nth-child(2) > td:nth-child(2)")).getText();
-//        Amount = driver.findElement(By.cssSelector("#rightPanel > table > tbody > tr:nth-child(5) > td:nth-child(2)")).getText();
-//
-//        //Opening Transfer Funds page
-//    }
-//
-//    public String getTransactionID(){
-//        return TransactionID;
-//    }
-//    public String getDate(){
-//        return Date;
-//    }
-//    public String getAmount(){
-//        return Amount;
-//    }
 }
