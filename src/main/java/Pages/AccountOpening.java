@@ -1,7 +1,9 @@
 /*
-* This is the Account Creation class that is executed after the AccountsOverview.
-*
-* */
+ * This is the AccountsOverview class that is executed after the login class
+ * This is the Accounts Overview page for Parabank
+ * This class has functions that select Activity Period and Type in Account Activity section of Accounts Overview page.
+ * It also has hoverOverTitle() method to hover over the title text.
+ * */
 package Pages;
 
 import org.openqa.selenium.By;
@@ -15,10 +17,6 @@ import java.time.Duration;
 
 public class AccountOpening {
     public WebDriver driver;
-
-    public String TransactionID;
-    private String Date;
-    private String Amount;
 
     public AccountOpening(WebDriver driver){
         this.driver = driver;
